@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample1: &lt;form&gt;&lt;a&gt;を利用したHTTP通信</title>
+</head>
+<body>
+    <h1>Sample1: &lt;form&gt;&lt;a&gt;を利用したHTTP通信</h1>
+
+    <p>
+        <a href="http://silverlance.sakura.ne.jp/connection_sample/server/privateresource.php">GET privateresource.php</a>
+    </p>
+    
+    <p>
+        <a href="http://silverlance.sakura.ne.jp/connection_sample/server/publicresource.php">GET publicresource.php</a>
+    </p>
+
+    <p>
+        <form action="http://silverlance.sakura.ne.jp/connection_sample/server/publicresource.php" method="GET">
+            <label>
+                数字
+                <input name="num">
+            </label>
+
+            <label>
+                文字
+                <input name="text">
+            </label>
+
+            <input type="submit" value="POST publicresource.php">
+        </form>
+    </p>
+</body>
+</html>
