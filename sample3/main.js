@@ -8,7 +8,7 @@ var request = require("request"),
     exec = require("child_process").exec;
 
 var CLIENT_ID = "819377864774244",
-    REDIRECT_URI = "http://kikura-yuichiro.github.io/connection_sample/server/";
+    REDIRECT_URI = "http://kikura-yuichiro.github.io/connection_sample/server/redirect.html";
 
 var AccessToken = null;
 
