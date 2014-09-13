@@ -13,7 +13,7 @@ function checkAccessToken() {
     return b.access_token;
 }
 
-var CLIENT_ID = "819377864774244",
+var CLIENT_ID = "525403397594677",
     REDIRECT_URI = document.location.origin + document.location.pathname;
 
 var AccessToken = null;
