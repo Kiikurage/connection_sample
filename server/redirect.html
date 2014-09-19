@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title></title>
+    <title>tumamigui</title>
 </head>
+
 <body>
-<script>
-(function(){var b={};document.location.hash.substr(1).split("&").forEach(function(a){a=a.split("=");b[a[0]]=a[1]});document.write(b.access_token)})();
-</script>
+    <script>
+    (function() {
+        var b = {};
+        document.location.hash.substr(1).split("&").forEach(function(a) {
+            a = a.split("=");
+            b[a[0]] = a[1]
+        });
+        document.write(b.access_token)
+    })();
+    </script>
 </body>
+
 </html>
